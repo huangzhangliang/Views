@@ -1,0 +1,24 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@android:color/holo_green_dark"
+        tools:context="com.webapps.view.MainActivity">
+
+        <Button
+            android:text="弹出/收回"
+            android:onClick="showAndDis"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </FrameLayout>
+
+</layout>
