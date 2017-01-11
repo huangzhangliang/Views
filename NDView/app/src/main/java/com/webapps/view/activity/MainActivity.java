@@ -1,10 +1,12 @@
-package com.webapps.view;
+package com.webapps.view.activity;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.webapps.view.R;
 import com.webapps.view.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -17,10 +19,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mActivityMainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
+        mActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         mActivityMainBinding.toDiscrollAnimator.setOnClickListener(this);
         mActivityMainBinding.toPathAnimator.setOnClickListener(this);
         mActivityMainBinding.toBoucdingAnimator.setOnClickListener(this);
+        mActivityMainBinding.toSlidingAnimator.setOnClickListener(this);
     }
 
 
@@ -38,6 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.toBoucdingAnimator:
                 intent = new Intent(this,BoucdingActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.toSlidingAnimator:
+                intent = new Intent(this,SlidingActivity.class);
                 startActivity(intent);
                 break;
         }

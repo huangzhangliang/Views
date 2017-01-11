@@ -1,4 +1,4 @@
-package com.webapps.view;
+package com.webapps.view.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.webapps.view.R;
 import com.webapps.view.anim.path.AnimatorPath;
 import com.webapps.view.anim.path.PathEvaluator;
 import com.webapps.view.anim.path.PathPoint;

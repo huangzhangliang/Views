@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tools:android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SlidingActivity">
+
+    <com.webapps.view.view.sliding.SlidingCardLayout
+        android:id="@+id/pane_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:colorBackground="#a55"
+        android:text="卡片 1"/>
+
+    <com.webapps.view.view.sliding.SlidingCardLayout
+        android:id="@+id/pane_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:colorBackground="#5a5"
+        android:text="卡片 2"/>
+
+    <com.webapps.view.view.sliding.SlidingCardLayout
+        android:id="@+id/pane_three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:colorBackground="#55a"
+        android:text="卡片 3"/>
+
+
+    <com.webapps.view.view.sliding.SlidingCardLayout
+        android:id="@+id/pane_four"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:colorBackground="#555"
+        android:text="卡片 4"/>
+
+
+</tools:android.support.design.widget.CoordinatorLayout>

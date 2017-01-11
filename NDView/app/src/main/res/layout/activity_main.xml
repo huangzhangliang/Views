@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.webapps.view.MainActivity">
+    tools:context="com.webapps.view.activity.MainActivity">
 
 
     <Button
@@ -30,6 +30,13 @@
     <Button
         android:id="@+id/toBoucdingAnimator"
         android:text="跳跃动画"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/toSlidingAnimator"
+        android:text="卡片动画"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

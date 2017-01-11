@@ -1,4 +1,4 @@
-package com.webapps.view;
+package com.webapps.view.activity;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.webapps.view.R;
 import com.webapps.view.databinding.ActivityBoucdingBinding;
 import com.webapps.view.view.boucding.BoucdingMenu;
 
@@ -22,7 +23,7 @@ public class BoucdingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mActivityBoucdingBinding = DataBindingUtil.setContentView(this,R.layout.activity_boucding);
+        mActivityBoucdingBinding = DataBindingUtil.setContentView(this, R.layout.activity_boucding);
     }
 
     public void showAndDis(View view){

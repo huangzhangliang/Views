@@ -9,7 +9,7 @@
         android:gravity="center"
         android:orientation="vertical"
         android:background="@android:color/holo_green_dark"
-        tools:context="com.webapps.view.MainActivity">
+        tools:context="com.webapps.view.activity.MainActivity">
 
         <Button
             android:text="弹出/收回"

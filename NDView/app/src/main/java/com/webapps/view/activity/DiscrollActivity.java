@@ -1,8 +1,10 @@
-package com.webapps.view;
+package com.webapps.view.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.webapps.view.R;
 
 /**
  * Created by leon on 17/1/3.
