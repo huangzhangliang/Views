@@ -1,0 +1,21 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wave="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.webapps.view.activity.MainActivity">
+
+        <com.webapps.view.view.WaveView
+            android:id="@+id/waveView"
+            wave:waveHeight="500dp"
+            wave:boatBitmap="@drawable/icon_app_120"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+
+</layout>

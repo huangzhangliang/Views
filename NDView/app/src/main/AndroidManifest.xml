@@ -19,6 +19,7 @@
         <activity android:name=".activity.DiscrollActivity"/>
         <activity android:name=".activity.BoucdingActivity"/>
         <activity android:name=".activity.SlidingActivity"/>
+        <activity android:name=".activity.WaveActivity"/>
     </application>
 
 </manifest>

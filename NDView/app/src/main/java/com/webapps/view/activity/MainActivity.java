@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mActivityMainBinding.toPathAnimator.setOnClickListener(this);
         mActivityMainBinding.toBoucdingAnimator.setOnClickListener(this);
         mActivityMainBinding.toSlidingAnimator.setOnClickListener(this);
+        mActivityMainBinding.toWaveAnimator.setOnClickListener(this);
     }
 
 
@@ -45,6 +46,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.toSlidingAnimator:
                 intent = new Intent(this,SlidingActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.toWaveAnimator:
+                intent = new Intent(this,WaveActivity.class);
                 startActivity(intent);
                 break;
         }
