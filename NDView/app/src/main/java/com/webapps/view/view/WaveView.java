@@ -64,8 +64,8 @@ public class WaveView extends View {
 
     private void initAttrs(Context context,AttributeSet attrs){
 
-        TypedArray a = context.obtainStyledAttributes(R.styleable.WaveView);
-        mWaveView_boatBitmap = (int) a.getDimension(R.styleable.WaveView_boatBitmap,0);
+        TypedArray a = context.obtainStyledAttributes(attrs,R.styleable.WaveView);
+        mWaveView_boatBitmap = a.getResourceId(R.styleable.WaveView_boatBitmap,0);
         mWaveView_rise = a.getBoolean(R.styleable.WaveView_rise,false);
         mWaveView_duration = (int) a.getDimension(R.styleable.WaveView_duration,2000);
         mWaveView_originY = (int) a.getDimension(R.styleable.WaveView_originY,500);

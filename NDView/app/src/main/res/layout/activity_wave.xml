@@ -7,12 +7,14 @@
         android:id="@+id/fl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.webapps.view.activity.MainActivity">
+        tools:context="com.webapps.view.activity.WaveActivity">
 
         <com.webapps.view.view.WaveView
             android:id="@+id/waveView"
-            wave:waveHeight="500dp"
-            wave:boatBitmap="@drawable/icon_app_120"
+            wave:waveHeight="60dp"
+            wave:waveLength="150dp"
+            wave:originY="300dp"
+            wave:boatBitmap="@drawable/ship"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

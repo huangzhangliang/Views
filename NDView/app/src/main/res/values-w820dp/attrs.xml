@@ -22,11 +22,17 @@
 
 
     <declare-styleable name="WaveView">
+        <!-- 波长 -->
         <attr name="waveLength" format="dimension"/>
+        <!-- 是否上升 -->
         <attr name="rise" format="boolean"/>
+        <!-- 小船的图片 -->
         <attr name="boatBitmap" format="reference"/>
+        <!-- 水位的初始位置 -->
         <attr name="originY" format="dimension"/>
+        <!-- 波峰的高度 -->
         <attr name="waveHeight" format="dimension"/>
+        <!-- 水涨的快慢 -->
         <attr name="duration" format="dimension"/>
     </declare-styleable>
 </resources>
