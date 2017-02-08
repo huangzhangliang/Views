@@ -1,53 +1,67 @@
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-<LinearLayout
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:gravity="center"
-    android:orientation="vertical"
-    tools:context="com.webapps.view.activity.MainActivity">
 
-
-    <Button
-        android:id="@+id/toPathAnimator"
-        android:text="路径动画"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/toDiscrollAnimator"
-        android:text="布局动画"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.webapps.view.activity.MainActivity">
 
-    <Button
-        android:id="@+id/toBoucdingAnimator"
-        android:text="跳跃动画"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/toSlidingAnimator"
-        android:text="卡片动画"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/toPathAnimator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="路径动画"/>
 
-    <Button
-        android:id="@+id/toWaveAnimator"
-        android:text="水波浪动画"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/toDiscrollAnimator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="布局动画"/>
 
-</LinearLayout>
+            <Button
+                android:id="@+id/toBoucdingAnimator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="跳跃动画"/>
 
+            <Button
+                android:id="@+id/toSlidingAnimator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="卡片动画"/>
+
+            <Button
+                android:id="@+id/toWaveAnimator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="水波浪动画"/>
+
+            <Button
+                android:id="@+id/toSweetPaneListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:text="SweetPaneListView"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 </layout>

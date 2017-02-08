@@ -20,6 +20,7 @@
         <activity android:name=".activity.BoucdingActivity"/>
         <activity android:name=".activity.SlidingActivity"/>
         <activity android:name=".activity.WaveActivity"/>
+        <activity android:name=".activity.SweetPaneActivity"/>
     </application>
 
 </manifest>
